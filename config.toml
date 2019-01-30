@@ -1,0 +1,65 @@
+baseurl = "https://stronglyhyped.github.io"
+languageCode = "en-us"
+title = "Strongly Hyped"
+theme = "kiss"
+copyright = "&copy; <a href=\"https://github.com/stronglyhyped\">Strongly Hyped</a> 2019"
+disqusShortname = "shortname"
+googleAnalytics = ""
+# Number of posts per page
+Paginate = 5
+enableRobotsTXT = true
+
+[params.features]
+disqusOnDemand = true  # Load Disqus comments on click
+
+[params.assets]
+customCSS = ["css/custom.css"]
+
+[params.rss]
+
+includeContent = true # Includes whole content in rss
+authorName = "Floyd Arguello" # Site author's full name
+authorEmail = "floyd.arguello@gmail.com"
+
+[params.info]
+adsense = "" # Adsense ID (ID only, without ca-pub-)
+enableSocial = false # Adds OpenGraph and Twitter cards
+homeTitle = "" # Title for home page
+poweredby = true # Adds powered by Hugo and Kiss below Copyright section
+related = true # Includes related articles
+
+[params.opengraph.facebook]
+admins = [] # array of Facebook IDs
+appID = ""
+pageID = ""
+
+[params.opengraph.twitter]
+page = "stronglyhyped" # Twitter Page username. If not set, params.social.twitter will be used.
+
+[params.social]
+
+twitter = "stronglyhyped"
+github = "stronglyhyped"
+email = "floyd.arguello@gmail.com"
+linkedin = "arguello"
+instagram = ""
+codepen = ""
+facebook = ""
+
+[params.social.config]
+#platforms = ["twitter","github","email","email","linkedin"]
+platforms = ["twitter","github","email","linkedin"]
+
+[params.matomoAnalytics]
+siteID = 1
+rootURL = "//matomo.example.com/"
+
+[params.fathomAnalytics]
+rootURL = "//fathom.example.com/"
+
+[taxonomies]
+tag ="tags"
+
+[blackfriday]
+hrefTargetBlank = true
+
