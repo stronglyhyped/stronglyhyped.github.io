@@ -18,8 +18,8 @@ customCSS = ["css/custom.css"]
 [params.rss]
 
 includeContent = true # Includes whole content in rss
-authorName = "Floyd Arguello" # Site author's full name
-authorEmail = "floyd.arguello@gmail.com"
+authorName = "Strongly Hyped" # Site author's full name
+authorEmail = "stronglyhyped@icloud.com"
 
 [params.info]
 adsense = "" # Adsense ID (ID only, without ca-pub-)
@@ -40,15 +40,15 @@ page = "stronglyhyped" # Twitter Page username. If not set, params.social.twitte
 
 twitter = "stronglyhyped"
 github = "stronglyhyped"
-email = "floyd.arguello@gmail.com"
-linkedin = "arguello"
+email = "stronglyhyped@icloud.com"
+linkedin = ""
 instagram = ""
 codepen = ""
 facebook = ""
 
 [params.social.config]
 #platforms = ["twitter","github","email","email","linkedin"]
-platforms = ["twitter","github","email","linkedin"]
+platforms = ["twitter","github","email"]
 
 [params.matomoAnalytics]
 siteID = 1
